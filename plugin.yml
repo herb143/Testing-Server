@@ -1,0 +1,13 @@
+name: Testing Server
+main: me.hgilman.TestingServer.TestingServer
+version: 1.0
+
+commands:
+   signalstop:
+      description: Stops the server with warnings first.
+      usage: |
+           /signalstop
+   bedkick:
+      description: Kicks anyone not in bed.
+      usage: |
+           /bedkick
