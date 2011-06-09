@@ -7,7 +7,7 @@ commands:
       description: Stops the server with warnings first.
       usage: |
            /signalstop
-   bedkick:
-      description: Kicks anyone not in bed.
+   giverequirements:
+      description: Gives the user the requirements for a spell.
       usage: |
-           /bedkick
+           /giverequirements <spell>
